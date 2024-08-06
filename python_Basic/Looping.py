@@ -29,4 +29,9 @@ for i in sorted(a):
 a=['apple','orange','banana','apple','apple']
 for i in sorted(set(a)):
     print(i)    
+    
+    
+import fibonaciiSeries
+fibonaciiSeries.fib(100)    
+    
              
