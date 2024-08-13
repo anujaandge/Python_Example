@@ -7,9 +7,9 @@ def scope_test():
         spam="nonlocal spam"    
     def do_glbal():
         global spam
-        print(spam)  
+        
         spam="global spam"  
-        print(spam)  
+       # print(spam)  
         
     spam='test spam'
     do_local()
