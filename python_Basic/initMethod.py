@@ -22,8 +22,7 @@ class A(object):
         
 class B(A):
     def __init__(self, name):
-        print("B init called")  
-        #a=A("ghj")  
+        print("B init called")    
         super().__init__(name='Ni')   
         A("saa") 
        # print("B init called") 
