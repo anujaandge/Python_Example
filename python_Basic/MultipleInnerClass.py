@@ -19,7 +19,7 @@ class organization:
 obj=organization()     
 obj.show()
 dept1=obj.dept1
-dept1.display_department1()
+dept1.display_department
 dept2=obj.dept2
 dept2.display_departmet2()                 
         
