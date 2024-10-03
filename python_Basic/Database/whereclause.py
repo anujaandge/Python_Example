@@ -2,6 +2,7 @@ import mysql.connector
 import demo_mysql
 mydb=demo_mysql.databaseConnection()
 mycursor=mydb.cursor()
+
 #sql="SELECT * FROM customers WHERE address='pune'"  
 sql="SELECT * FROM customers WHERE address=%s"
 adr=('pune',)
