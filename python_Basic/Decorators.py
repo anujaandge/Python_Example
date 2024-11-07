@@ -16,3 +16,17 @@ def print_str():
     return "good morning"
 
 print(print_str())
+
+def greeting_str(exp):
+    def outer(func):
+        def inner():
+            str=func()
+            return str+ exp 
+        return inner
+    return outer
+            
+@greeting_str(" Vivek")
+def greeting():
+    return "Hello"
+
+print(greeting())
